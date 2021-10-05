@@ -50,11 +50,21 @@ const About = () => {
 
             <div className=''>
                 <h2 className='fw-bold'>Sponsored By:</h2>
-                <img className='mx-4 my-5' src="./sponsor_logo1.png" alt=" className='card'" />
-                <img className='mx-4 my-5' src="./sponsor_logo2.png" alt=" className='card'" />
-                <img className='mx-4 my-5' src="./sponsor_logo3.png" alt=" className='card'" />
-                <img className='mx-4 my-5' src="./sponsor_logo4.png" alt=" className='card'" />
-                <img className='mx-4 my-5' src="./sponsor_logo5.png" alt="" />
+                <div>
+                    <img className='mx-4 my-5' src="./sponsor_logo1.png" alt=" className='card'" />
+                    <img className='mx-4 my-5' src="./sponsor_logo2.png" alt=" className='card'" />
+                    <img className='mx-4 my-5' src="./sponsor_logo3.png" alt=" className='card'" />
+                    <img className='mx-4 my-5' src="./sponsor_logo4.png" alt=" className='card'" />
+                    <img className='mx-4 my-5' src="./sponsor_logo5.png" alt="" />
+                </div>
+
+                <div>
+                    <img className='mx-4 my-5' style={{height:'150px'}} src="./sponsor_logo6.png" alt=" className='card'" />
+                    <img className='mx-4 my-5' style={{height:'150px'}} src="./sponsor_logo7.png" alt=" className='card'" />
+                    <img className='mx-4 my-5' style={{height:'150px'}} src="./sponsor_logo8.jpg" alt=" className='card'" />
+                    <img className='mx-4 my-5' style={{height:'150px'}} src="./sponsor_logo9.jpeg" alt=" className='card'" />
+                    <img className='mx-4 my-5' style={{height:'150px'}} src="./sponsor_logo10.png" alt="" />
+                </div>
             </div>
         </div>
     );
