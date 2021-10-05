@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className='bg-dark'>
+        <div className='bg-dark py-5'>
             <div className="container d-flex">
                 <div className="col-md-6 text-warning">
                     <h3 className='text-start ms-2'>GET IN TOUCH</h3>

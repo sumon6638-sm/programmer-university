@@ -3,7 +3,7 @@ import React from 'react';
 const Contact = () => {
     return (
         <div>
-            <div className='container card my-5 shadow-lg'>
+            <div className='container card my-5 shadow-lg py-5'>
                 <h1 className='fw-bold'>CONTACT</h1>
                 <div className='text-start ms-5'>
                     <p><strong>Location: </strong>7-14, Nikunja Housing Society, South Khulshi, Chittagong.</p>
