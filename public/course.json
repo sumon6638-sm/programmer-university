@@ -1,0 +1,34 @@
+[
+    {
+        "courseCode": "psycho132",
+        "courseTitle": "Psychology",
+        "rating": 3.4,
+        "courseFee": 59,
+        "courseDetails": "While psychological knowledge is often applied to the assessment and treatment of mental health problems, it is also directed towards understanding and solving problems in several spheres of human activity. By many accounts, psychology ultimately aims to benefit society.",
+        "img": "https://miuc.org/wp-content/uploads/2019/11/Why-we-love-social-psychology-737x415.jpg"
+    },
+    {
+        "courseCode": "business203",
+        "courseTitle": "Business Study",
+        "rating": 3.8,
+        "courseFee": 89,
+        "courseDetails": "Business studies is an academic subject taught in schools and at university level in many countries. Its study combines elements of accountancy, finance, marketing, organizational studies, human resource management, and operations.",
+        "img": "https://thumbs.dreamstime.com/z/business-studies-text-form-chart-office-tips-204992738.jpg"
+    },
+    {
+        "courseCode": "math304",
+        "courseTitle": "Mathematics",
+        "rating": 4.6,
+        "courseFee": 98,
+        "courseDetails": "Mathematics (from Greek: μάθημα, máthēma, knowledge, study, learning) includes the study of such topics as quantity (number theory), structure (algebra), space (geometry), and change (analysis). ... The research required to solve mathematical problems can take years or even centuries of sustained inquiry.",
+        "img": "https://image.shutterstock.com/image-illustration/mathematics-horizontal-banner-presentation-website-260nw-1798855321.jpg"
+    },
+    {
+        "courseCode": "DS509",
+        "courseTitle": "Data Science",
+        "rating": 4.3,
+        "courseFee": 85,
+        "courseDetails": "Data science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from noisy, structured and unstructured data, and apply knowledge and actionable insights from data across a broad range of application domains.",
+        "img": "https://s27389.pcdn.co/wp-content/uploads/2021/07/data-science-predictions-for-near-future-1024x440.jpeg.optimal.jpeg"
+    }
+]
