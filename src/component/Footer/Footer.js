@@ -8,12 +8,12 @@ const Footer = () => {
                     <h3 className='text-start ms-2'>GET IN TOUCH</h3>
                     <div className="d-flex text-light">
                         <div className="col-md-6 text-start ms-2 pe-2">
-                            <p>7-14, Nikunja Housing Society South Khulshi, Chittagong</p>
+                            <p><i class="fas fa-map-marker-alt"></i> 7-14, Nikunja Housing Society South Khulshi, Chittagong</p>
                         </div>
 
                         <div className="col-md-6 text-start ms-2 px-2">
-                            <p>88 031-2869877 , 88 031-2869899</p>
-                            <p>mdsumoncse19@gmail.com</p>
+                            <p><i class="fas fa-phone-volume"></i> 88 031-2869877 , 88 031-2869899</p>
+                            <p><i class="fas fa-envelope-open"></i> mdsumoncse19@gmail.com</p>
                         </div>
                     </div>
                 </div>
