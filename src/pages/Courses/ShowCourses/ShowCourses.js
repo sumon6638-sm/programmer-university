@@ -1,7 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ShowCourses = (props) => {
     const { courseCode, courseTitle, rating, courseDetails, courseFee, img } = props.course;
+
+    const dynamicUrl = `/course/${courseCode}`;
 
     return (
         <div className="col">
@@ -11,7 +14,8 @@ const ShowCourses = (props) => {
                     <h5 className="card-title text-success"><strong>{courseTitle}</strong></h5><hr />
                     <p><strong>Course Code: </strong>{courseCode}</p>
                     <p className="card-text">{courseDetails.slice(0, 100)}</p>
-                    <button className='btn btn-outline-secondary text-danger'><i class="fas fa-info-circle"></i> Course Details</button>
+                    <Link to={dynamicUrl}><button className='btn btn-outline-secondary text-danger'><i class="fas fa-info-circle"></i> Course Details</button></Link>
+                    
                 </div>
                 <div className="card-footer d-flex justify-content-between">
                     <div className='fw-bold'>Course Fee: ${courseFee}</div>

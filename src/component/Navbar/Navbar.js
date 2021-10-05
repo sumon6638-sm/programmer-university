@@ -6,7 +6,8 @@ const Navbar = () => {
     const activeTab = {
         fontWeight: 'bold',
         border: '2px solid yellow',
-        borderRadius: '5px'
+        borderRadius: '5px',
+        padding: '4px'
     }
 
     return (

@@ -8,6 +8,7 @@ import Contact from './pages/Contact/Contact';
 import NotFound from './pages/NotFound/NotFound';
 import Footer from './component/Footer/Footer';
 import About from './pages/About/About';
+import CourseDetails from './pages/CourseDetails/CourseDetails';
 
 function App() {
   return (
@@ -26,6 +27,10 @@ function App() {
 
           <Route path = '/courses'>
             <Courses></Courses>
+          </Route>
+
+          <Route path='/course/:courseCode'>
+            <CourseDetails></CourseDetails>
           </Route>
 
           <Route path = '/instructor'>
