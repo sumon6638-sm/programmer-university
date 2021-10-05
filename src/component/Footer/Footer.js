@@ -18,7 +18,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="col-md-6 text-warning ms-5">
+                <div className="col-md-8 text-warning ms-5">
                     <h3 className='text-start ms-5'>USEFUL LINKS</h3>
                     <div className="text-light col-md-6 text-start ms-5">
                         <li>Bangladesh University</li>
