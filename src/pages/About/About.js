@@ -14,7 +14,7 @@ const About = () => {
 
             <div className="col-md-6 ms-4 my-auto">
                 <div class="row">
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="card">
                             <div class="card-body bg-primary text-light fw-bold">
                                 <h1><i class="fab fa-discourse"></i></h1>
@@ -24,7 +24,7 @@ const About = () => {
                         </div>
                     </div>
 
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="card">
                             <div class="card-body bg-danger text-light fw-bold">
                                 <h1><i class="fas fa-trophy"></i></h1>
@@ -34,7 +34,7 @@ const About = () => {
                         </div>
                     </div>
 
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="card">
                             <div class="card-body bg-success text-light fw-bold">
                                 <h1><i class="fas fa-user-graduate"></i></h1>
