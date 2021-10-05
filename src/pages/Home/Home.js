@@ -8,7 +8,7 @@ const Home = () => {
     const [courses, setCourses] = useState([]);
 
     useEffect(() => {
-        fetch('./course.json')
+        fetch('./courses.json')
             .then(res => res.json())
             .then(data => setCourses(data));
     },[])
@@ -86,7 +86,7 @@ const Home = () => {
 
             <div class="container mx-auto row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-3">
                 {
-                    courses.map(course =>
+                    courses.slice(0,4).map(course =>
                         <ShowCourse
                             key={course.courseCode}
                             course={course}
