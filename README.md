@@ -2,7 +2,7 @@
 
 ### Live site Link: https://programmer-international-university-sumon6638.netlify.app/
 
-### Repository Link: https://github.com/ProgrammingHeroWC4/review-website-sumon6638-sm
+### Repository Link: https://github.com/sumon6638-sm/programmer-university.git
 
 ## From this site: This is a university based website.
     1. From this site a student can know about this university
